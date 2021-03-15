@@ -112,9 +112,9 @@ public class Client {
 
 class ClientConfig {
 
-    private final int port = 21;
+    private final int port = 9000;
     private final String server = "127.0.0.1";
-    private final String clientFolder = "C:/Users/Admin/Desktop/APP/FTPTestPath/ClientFolder";
+    private final String clientFolder = "//Change Dir before use";
 
     public int getPort() {
         return port;
