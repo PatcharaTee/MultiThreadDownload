@@ -47,8 +47,8 @@ public class Server {
 
 class ServerConfig {
 
-    private final int port = 21;
-    private final String serverFolder = "C:/Users/Admin/Desktop/APP/FTPTestPath/ServerFolder";
+    private final int port = 9000;
+    private final String serverFolder = "//change before use";
 
     public String getServerFolder() {
         return serverFolder;
